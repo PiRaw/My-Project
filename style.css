@@ -1,0 +1,73 @@
+/* BACKGROUND E FONT */
+body{
+  background-image: url(background.jpg);
+  background-size: cover;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+/* LAYOUT DELLA PAGINA */
+.layout{
+  background: rgba(0, 0, 0, 0.5);
+  padding: 60px;
+  width: 55%;
+  border-radius: 3%;
+  margin: auto;
+}
+
+/* HEADER E NAVIGATION */
+header, nav{
+  text-align: center;
+}
+
+.logo{
+  width: 200px;
+}
+
+.title{
+  color: lime;
+}
+
+nav{
+  background-color: lime;
+  padding: 10px;
+}
+
+/* COLORE E DIMENSIONI FONT */
+.scooter{
+  color: white;
+}
+
+.name{
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.street, .charge{
+  font-size: 12px;
+}
+
+/* SIMBOLO FRECCIA */
+.arrow:before {
+    content: '\21A6';
+}
+
+/* PERCENTUALE DI CARICA */
+.maxcharge, .medcharge, .mincharge{
+  padding: 10px;
+  border-radius: 4%;
+}
+
+.maxcharge{
+  background: rgba(0, 155, 0, 1.0);
+  width: 60%;
+}
+
+.medcharge{
+  background: rgba(255, 170, 90, 1.0);
+  width: 30%;
+}
+
+.mincharge{
+  background: rgba(255, 75, 55, 1.0);
+  width: 10%;
+}
